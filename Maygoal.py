@@ -20,7 +20,7 @@ class ResultScreen(Frame):
 win1=Tk()
 win1.geometry("500x500")
 win1.title("Speed Typers")
-app = App(win1)
+app = ResultScreen(win1)
 win1.mainloop()                
 
 def CheckInput(listOfWords, listOfInput):
